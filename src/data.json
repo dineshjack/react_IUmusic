@@ -1,0 +1,23 @@
+{
+    "UserDetails":[
+        {
+        "Fristname":"Dinesh",
+        "Lastname":"Kumar",
+        "Age": "30",
+        "Department":"UI",
+        "Skills":"PHP,React"
+    },{
+        "Fristname":"John",
+        "Lastname":"Jesuraj",
+        "Age": "30",
+        "Department":"UI",
+        "Skills":"CMS,React"
+    },{
+        "Fristname":"Ahmed",
+        "Lastname":"mansoor",
+        "Age": "29",
+        "Department":"UI",
+        "Skills":"HTML5,React"
+    }
+]
+}

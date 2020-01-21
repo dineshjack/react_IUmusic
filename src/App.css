@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.branding-wrapper {
+  margin: 0 auto;
+  max-width: 870px;
+}
+
+.top-backgd {
+  border-top: 6px solid #990000;
+  background:#7d110c ;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  min-height: 52px;
+  
+  text-align: right;
+}
+.campus img {
+  height: auto;
+  left: 5px;
+  position: absolute;
+  top: -6px;
+  width: 64px;
+  height: 73px;
+  z-index: 1;
+}
+.row-set{
+  width: 1024px;
+    margin: 0 auto !important;
+}
+.row-adj{
+  margin: 0 !important;
+}
+.bar{
+  text-align: left;
+    padding: 15px 60px;
+}
+.campus {margin: 0;}
+.campus a {color: #fff;text-transform: uppercase;}
+.navg{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 20px;
+  color: #000;
+  list-style-type: none;
+  padding-left: 15px;
+
+}
+.header-banner{
+  padding: 0;
+  margin: 0;
+  width: 900px;
+  height: 263px;
+  background: #eee url(headerBack.gif) top left no-repeat;
+  border-bottom: 9px solid #291432;
+  position: relative;
+}
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.nav {
+  display: inline-block;
+ background: #e7e2d0;
+  color: #fff;
+  text-align: left;
+}
+.nav a {
+  display: block;
+  padding: 0 10px;
+  line-height: inherit;
+  cursor: pointer;
+  color: #7d110c;
+  font-size: 15px;
+}
+.nav a:hover{
+  color: #7d110c;
+}
+.nav__menu {
+  
+  font-weight: 500;
+ 
+}
+.nav__menu-item {
+  display: inline-block;
+  position: relative;
+  border-right: 3px solid #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+.nav__menu-item:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.nav__menu-item:hover .nav__submenu {
+  display: block;
+}
+.nav__submenu {
+  font-weight: 300;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  width: 180px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: left;
+}
+.nav__submenu-item:hover {
+  background: rgba(0, 0, 0, 0.4);
+  
+}
+.nav__submenu {
+  display: none;
+}
+.nav__menu-item:hover .nav__submenu {
+  display: block;
+}
